@@ -1,5 +1,6 @@
 <!-- QA Email Template -->
 <!DOCTYPE html>
+<!--suppress ALL -->
 <html>
 
 <head>
@@ -61,17 +62,21 @@
             width: 200px;
             padding: 20px 20px;
             text-align: center;
-            background-color: yellow;
+            background-image: linear-gradient(120deg, #990001, #16185E);
+            color: white;
+            font-weight: bolder;
+            font-size: large;
+
         }
 
         /* ::::::::::::::::::::Range Slider Styles::::::::::::::::::::::::: */
         .range-slider-block {
-            margin: 0px auto;
+            margin: 0 auto;
             width: 90%;
         }
 
         #range-slider {
-            padding: 40px 0px;
+            padding: 40px 0;
             width: 100%;
             /*outline: 1px solid green;*/
         }
@@ -84,7 +89,7 @@
         /* Track */
         input[type=range]::-webkit-slider-runnable-track {
             height: 10px;
-            background: #d7d7d7;
+            background-image: linear-gradient(120deg, #990001, #16185E);
             border: none;
             border-radius: 6px;
         }
@@ -100,7 +105,7 @@
             height: 30px;
             width: 30px;
             border-radius: 50%;
-            background: #46947F;
+            background: #16185E;
             margin-top: -9px;
             transition: box-shadow 0.5s;
         }
@@ -113,12 +118,12 @@
         /* JS Stykes */
         /* Changes Thumb color to darker green when mousedownn */
         input[type=range].thumb-down::-webkit-slider-thumb {
-            background: #316557;
+            background: #16185E;
         }
 
         /* Changes Thumb color back to light green when mouseup */
         input[type=range].thumb-up::-webkit-slider-thumb {
-            background: #46947F;
+            background: #16185E;
         }
 
         /* Changes Ring color Green */
@@ -128,7 +133,7 @@
         }
 
         input[type=range].hover-ring-out::-webkit-slider-thumb {
-            box-shadow: 0 0 0 0pt rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
             cursor: pointer;
         }
 
