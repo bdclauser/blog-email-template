@@ -3,6 +3,13 @@
 <html>
 
 <head>
+    <script
+            src="https://code.jquery.com/ui/1.9.2/jquery-ui.min.js"
+            integrity="sha256-eEa1kEtgK9ZL6h60VXwDsJ2rxYCwfxi40VZ9E0XwoEA="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>QA Item Released</title>
@@ -49,46 +56,85 @@
             }
         }
 
+        #slider_count {
+            margin: 0 auto;
+            width: 200px;
+            padding: 20px 20px;
+            text-align: center;
+            background-color: yellow;
+        }
+
+        /* ::::::::::::::::::::Range Slider Styles::::::::::::::::::::::::: */
+        .range-slider-block {
+            margin: 0px auto;
+            width: 90%;
+        }
+
+        #range-slider {
+            padding: 40px 0px;
+            width: 100%;
+            /*outline: 1px solid green;*/
+        }
+
+        /* Remove Range Sliders Default Styles*/
+        input[type=range] {
+            -webkit-appearance: none;
+        }
+
+        /* Track */
+        input[type=range]::-webkit-slider-runnable-track {
+            height: 10px;
+            background: #d7d7d7;
+            border: none;
+            border-radius: 6px;
+        }
+
+        input[type=range]:focus {
+            outline: none;
+        }
+
+        /* Thumb */
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            border: none;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background: #46947F;
+            margin-top: -9px;
+            transition: box-shadow 0.5s;
+        }
+
+        input[type=range]:hover::-webkit-slider-thumb {
+            box-shadow: 0 0 0 10pt rgba(190, 190, 190, 0.4);
+            cursor: pointer;
+        }
+
+        /* JS Stykes */
+        /* Changes Thumb color to darker green when mousedownn */
+        input[type=range].thumb-down::-webkit-slider-thumb {
+            background: #316557;
+        }
+
+        /* Changes Thumb color back to light green when mouseup */
+        input[type=range].thumb-up::-webkit-slider-thumb {
+            background: #46947F;
+        }
+
+        /* Changes Ring color Green */
+        input[type=range].hover-ring::-webkit-slider-thumb {
+            box-shadow: 0 0 0 6pt rgba(70, 148, 127, 0.46);
+            cursor: pointer;
+        }
+
+        input[type=range].hover-ring-out::-webkit-slider-thumb {
+            box-shadow: 0 0 0 0pt rgba(0, 0, 0, 0);
+            cursor: pointer;
+        }
+
         img {
             vertical-align: middle;
         }
-
-        .slidecontainer {
-            width: 100%;
-        }
-
-        .slider {
-            -webkit-appearance: none;
-            width: 100%;
-            height: 25px;
-            background: #d3d3d3;
-            outline: none;
-            opacity: 0.7;
-            -webkit-transition: .2s;
-            transition: opacity .2s;
-        }
-
-        .slider:hover {
-            opacity: 1;
-        }
-
-        .slider::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 25px;
-            height: 25px;
-            background: #4CAF50;
-            cursor: pointer;
-        }
-
-        .slider::-moz-range-thumb {
-            width: 25px;
-            height: 25px;
-            background: #4CAF50;
-            cursor: pointer;
-        }
-
-
     </style>
 </head>
 
@@ -115,7 +161,7 @@
                         <td class="content-header h1"
                             style="box-sizing: border-box; vertical-align: top; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #1271db; border-radius: 3px 3px 0 0; text-align: center; padding: 60px 0;"
                             valign="top" bgcolor="#1271db" align="center">
-                            <h1 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 300; line-height: 1.4em; margin: 0; padding-bottom: 30px; font-size: 28px; padding: 0; text-align: center; color: #ffffff; text-transform: none;">
+                            <h1 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 300; line-height: 1.4em; margin: 0; font-size: 28px; padding: 0;text-align: center; color: #ffffff; text-transform: none;">
                                 #QA_Release</h1>
 
                         </td>
@@ -130,7 +176,7 @@
                                     <td class="h2"
                                         style="box-sizing: border-box; vertical-align: top; mso-table-lspace: 0; mso-table-rspace: 0; padding: 30px 0;"
                                         valign="top">
-                                        <h2 style="color: #1271db; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 400; line-height: 1.4em; margin: 0; padding-bottom: 30px; font-size: 28px; padding: 0; text-align: center; text-transform: capitalize;">
+                                        <h2 style="color: #1271db; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 400; line-height: 1.4em; margin: 0; font-size: 28px; padding: 0;text-align: center; text-transform: capitalize;">
                                             This item is soon to be released!</h2>
 
                                     </td>
@@ -162,7 +208,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <span><div style="float: left"><label>KB Article Created<input
+                                                    <span><div style="float: left"><label>KB Created<input
                                                             type="checkbox"></label></div><div
                                                             style="float: right"><label>N/A<input
                                                             type="checkbox"></label></div>
@@ -177,27 +223,51 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div class="slidecontainer">
-                                                        <p>Impact Value: <span id="demo"></span></p>
-                                                        <input type="range" min="1" max="100" value="50"
-                                                               class="slider" id="myRange" title="impact_range">
-                                                    </div>
                                                     <script>
-                                                        var slider = document.getElementById("myRange");
-                                                        var output = document.getElementById("demo");
-                                                        output.innerHTML = slider.value;
+                                                        var slideText = [
+                                                            "little or no impact",
+                                                            "some impact",
+                                                            "impact, notify accounts",
+                                                            "additional impact, notify accounts, change-log",
+                                                            "massive impact, notify accounts, change-log, marketing"
+                                                        ];
 
-                                                        slider.oninput = function () {
-                                                            output.innerHTML = this.value;
-                                                        }
+                                                        $('#sliderPrice').html(slideText[0]);
+
+                                                        $(document).on('input change', '#range-slider', function () { //Listen to slider changes (input changes)
+                                                            var v = $(this).val(); //Create a Variable (v), and store the value of the input change (Ex. Image 2 [imageURL])
+
+                                                            $('#sliderStatus').html($(this).val());
+                                                            $('#sliderPrice').html(slideText[v]);
+
+                                                            $("#img").prop("src", imageUrl[v]); // Modify the Images attribute src based on the sliders value, and input the value inside the imageURL[v] to display image
+                                                        });
+
+                                                        // ::::: Range Slider Thumb ::::: //
+
+                                                        $("#range-slider").on("mousedown", function () { //1. When user clicks their mouse down on the Range-Slider
+                                                            $(this).removeClass().addClass("thumb-down");//1.1 Remove default class from CSS, and add the class .thumb-down (changes background color)
+                                                            $(this).addClass("hover-ring");//1.2 Remove default class from CSS, and add the class .hover-ring (changes box-shadow to a green color)
+                                                        });
+
+                                                        $("#range-slider").on("mouseup", function () { //2. When user mouse-up on Range-Slider
+
+                                                            $(this).addClass("thumb-up"); //2.1 Changes thumb color back to light green
+
+                                                            $(this).addClass("hover-ring-out"); //2.2 Remove Box-Shadow
+                                                        });
                                                     </script>
+                                                    <div class="range-slider-block">
+                                                        <input type="range" id="range-slider" value="0" min="0"
+                                                               max="4" step="1" title="impact range"/>
+                                                        <div style="float: left">No Impact</div>
+                                                        <div style="float: right"><b>High</b></div>
+                                                    </div>
+                                                    <div id="slider_count"><span id="sliderPrice">0</span></div>
+
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>
-                                                    <div style="float: left">No Impact</div>
-                                                    <div style="float: right"><b>High</b></div>
-                                                </td>
                                             </tr>
                                             <tr>
                                                 <td class="link"
@@ -208,7 +278,7 @@
                                                            style="box-sizing: border-box; color: #1271db;
                                                            text-decoration: underline;"><img
                                                                 src="https://raw.githubusercontent.com/bdclauser/tolink/master/1TtEogZI.png"
-                                                                alt="Asana Logo" width="115" height="115"
+                                                                alt="Asana Logo" style="width:123px;height: 93px;"
                                                                 align="middle"></a> &dash; ACEMAPP, QA
                                                         Items, development, and workflow.
                                                     </p>
