@@ -48,9 +48,47 @@
                 background-image: linear-gradient(120deg, #990001, #16185E) !important;
             }
         }
+
         img {
             vertical-align: middle;
         }
+
+        .slidecontainer {
+            width: 100%;
+        }
+
+        .slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 25px;
+            background: #d3d3d3;
+            outline: none;
+            opacity: 0.7;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+        }
+
+        .slider:hover {
+            opacity: 1;
+        }
+
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            background: #4CAF50;
+            cursor: pointer;
+        }
+
+        .slider::-moz-range-thumb {
+            width: 25px;
+            height: 25px;
+            background: #4CAF50;
+            cursor: pointer;
+        }
+
+
     </style>
 </head>
 
@@ -114,13 +152,51 @@
                                                            text-decoration: underline;">
                                                             <!-- Insert Asana Title Here -->
                                                             Hide Run Roster Sender Button</a></h3>
-
                                                     <p style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; font-weight: normal; margin: 0; padding-bottom: 15px;">
                                                         <!-- Insert Item Description -->
                                                         Hide the run roster sender button based on rotation as opposed
                                                         to entity setting. If a rotation is created while the entity is
                                                         still Limbo and now the rotation is switched to a non-limbo, the
                                                         roster sender button is now hidden on non-limbo rotations.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span><div style="float: left"><label>KB Article Created<input
+                                                            type="checkbox"></label></div><div
+                                                            style="float: right"><label>N/A<input
+                                                            type="checkbox"></label></div>
+                                                        <div style="margin: 0 auto; width: 100px;"><label>KB Updated<input
+                                                                type="checkbox"></label></div>
+
+                                                    </span>
+                                                    <div style="text-align: center; padding-top: 10px"><a href=""><img
+                                                            src="https://dabuttonfactory.com/button.jpg?t=To+KB+Article&f=Calibri-Bold&ts=14&tc=fff&tshs=1&tshc=564040&hp=20&vp=8&c=5&bgt=gradient&bgc=16185e&ebgc=990001"></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="slidecontainer">
+                                                        <p>Impact Value: <span id="demo"></span></p>
+                                                        <input type="range" min="1" max="100" value="50"
+                                                               class="slider" id="myRange" title="impact_range">
+                                                    </div>
+                                                    <script>
+                                                        var slider = document.getElementById("myRange");
+                                                        var output = document.getElementById("demo");
+                                                        output.innerHTML = slider.value;
+
+                                                        slider.oninput = function () {
+                                                            output.innerHTML = this.value;
+                                                        }
+                                                    </script>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div style="float: left">No Impact</div>
+                                                    <div style="float: right"><b>High</b></div>
                                                 </td>
                                             </tr>
                                             <tr>
