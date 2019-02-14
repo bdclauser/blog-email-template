@@ -4,11 +4,12 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/QA_Template.html" line="217" />
+    <bookmark url="file://$PROJECT_DIR$/QA_Template.html" line="220" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="321f2603-7837-4ee6-a9fa-cf2bd400b138" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA_Template.html" beforeDir="false" afterPath="$PROJECT_DIR$/QA_Template.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -147,8 +148,8 @@
       <file leaf-file-name="QA_Template.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/QA_Template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="252" column="61" selection-start-line="252" selection-start-column="61" selection-end-line="252" selection-end-column="61" />
+            <state relative-caret-position="59">
+              <caret line="178" column="48" lean-forward="true" selection-start-line="178" selection-start-column="48" selection-end-line="178" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -434,7 +435,7 @@
       <workItem from="1549656498479" duration="4038000" />
       <workItem from="1549662822738" duration="829000" />
       <workItem from="1549897972382" duration="1524000" />
-      <workItem from="1550152251215" duration="23067000" />
+      <workItem from="1550152251215" duration="24195000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Image Link and image sizing">
       <created>1550158001882</created>
@@ -464,11 +465,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550176458005</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="style updates to slider text">
+      <created>1550176492500</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550176492500</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed link">
+      <created>1550177411520</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550177411520</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153148000" />
+    <option name="totallyTimeSpent" value="154276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2023" y="66" width="1385" height="887" extended-state="0" />
@@ -516,7 +531,8 @@
     <MESSAGE value="Added slider, KB checkboxes and updated styles" />
     <MESSAGE value="Fixed slider to print string instead of int.  Adjust Asana image size" />
     <MESSAGE value="style updates to slider text" />
-    <option name="LAST_COMMIT_MESSAGE" value="style updates to slider text" />
+    <MESSAGE value="fixed link" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed link" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -900,8 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/QA_Template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="252" column="61" selection-start-line="252" selection-start-column="61" selection-end-line="252" selection-end-column="61" />
+        <state relative-caret-position="59">
+          <caret line="178" column="48" lean-forward="true" selection-start-line="178" selection-start-column="48" selection-end-line="178" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
