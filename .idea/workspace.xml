@@ -7,9 +7,8 @@
     <bookmark url="file://$PROJECT_DIR$/QA_Template.html" line="221" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="321f2603-7837-4ee6-a9fa-cf2bd400b138" name="Default" comment="update kb button click function">
+    <list default="true" id="321f2603-7837-4ee6-a9fa-cf2bd400b138" name="Default" comment="removed button for simple text">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QA_Template.html" beforeDir="false" afterPath="$PROJECT_DIR$/QA_Template.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -208,7 +207,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550436137442" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550436459017" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="HTML" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -243,6 +242,53 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="blog-email-template" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="blog-email-template" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -302,7 +348,7 @@
       <workItem from="1549662822738" duration="829000" />
       <workItem from="1549897972382" duration="1524000" />
       <workItem from="1550152251215" duration="24195000" />
-      <workItem from="1550429297691" duration="2881000" />
+      <workItem from="1550429297691" duration="3077000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Image Link and image sizing">
       <created>1550158001882</created>
@@ -353,15 +399,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550429912029</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="removed button for simple text">
+      <created>1550436252768</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550436252768</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157157000" />
+    <option name="totallyTimeSpent" value="157353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="295" y="66" width="1385" height="887" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Learn" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12658228" />
@@ -382,7 +434,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32933334" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49962264" weight="0.32933334" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50037736" side_tool="true" weight="0.32933334" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50037736" side_tool="true" weight="0.32830188" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32933334" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32933334" />
       <window_info anchor="right" id="Maven" />
@@ -401,13 +453,18 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Updated Image Link and image sizing" />
     <MESSAGE value="Added slider, KB checkboxes and updated styles" />
     <MESSAGE value="Fixed slider to print string instead of int.  Adjust Asana image size" />
     <MESSAGE value="style updates to slider text" />
     <MESSAGE value="fixed link" />
     <MESSAGE value="update kb button click function" />
-    <option name="LAST_COMMIT_MESSAGE" value="update kb button click function" />
+    <MESSAGE value="removed button for simple text" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed button for simple text" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="editorHistoryManager">
