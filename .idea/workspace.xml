@@ -4,12 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/QA_Template.html" line="220" />
+    <bookmark url="file://$PROJECT_DIR$/QA_Template.html" line="221" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="321f2603-7837-4ee6-a9fa-cf2bd400b138" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="321f2603-7837-4ee6-a9fa-cf2bd400b138" name="Default" comment="update kb button click function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QA_Template.html" beforeDir="false" afterPath="$PROJECT_DIR$/QA_Template.html" afterDir="false" />
     </list>
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/QA_Template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="228" column="40" selection-start-line="228" selection-start-column="40" selection-end-line="228" selection-end-column="40" />
+            <state relative-caret-position="417">
+              <caret line="225" column="80" lean-forward="true" selection-start-line="225" selection-start-column="80" selection-end-line="225" selection-end-column="80" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
@@ -210,6 +208,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550436137442" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="HTML" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -303,7 +302,7 @@
       <workItem from="1549662822738" duration="829000" />
       <workItem from="1549897972382" duration="1524000" />
       <workItem from="1550152251215" duration="24195000" />
-      <workItem from="1550429297691" duration="267000" />
+      <workItem from="1550429297691" duration="2881000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Image Link and image sizing">
       <created>1550158001882</created>
@@ -347,11 +346,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550177411520</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update kb button click function">
+      <created>1550429912029</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550429912029</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154543000" />
+    <option name="totallyTimeSpent" value="157157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="295" y="66" width="1385" height="887" extended-state="0" />
@@ -400,7 +406,8 @@
     <MESSAGE value="Fixed slider to print string instead of int.  Adjust Asana image size" />
     <MESSAGE value="style updates to slider text" />
     <MESSAGE value="fixed link" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed link" />
+    <MESSAGE value="update kb button click function" />
+    <option name="LAST_COMMIT_MESSAGE" value="update kb button click function" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -472,8 +479,8 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_18.html" />
     <entry file="file://$PROJECT_DIR$/QA_Template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="228" column="40" selection-start-line="228" selection-start-column="40" selection-end-line="228" selection-end-column="40" />
+        <state relative-caret-position="417">
+          <caret line="225" column="80" lean-forward="true" selection-start-line="225" selection-start-column="80" selection-end-line="225" selection-end-column="80" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
