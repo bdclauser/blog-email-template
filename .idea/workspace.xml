@@ -7,8 +7,9 @@
     <bookmark url="file://$PROJECT_DIR$/QA_Template.html" line="221" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="321f2603-7837-4ee6-a9fa-cf2bd400b138" name="Default" comment="removed button for simple text">
+    <list default="true" id="321f2603-7837-4ee6-a9fa-cf2bd400b138" name="Default" comment="update workspace - name changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA_Template.html" beforeDir="false" afterPath="$PROJECT_DIR$/QA_Template.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/QA_Template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="225" column="80" lean-forward="true" selection-start-line="225" selection-start-column="80" selection-end-line="225" selection-end-column="80" />
+            <state relative-caret-position="447">
+              <caret line="227" column="111" selection-start-line="227" selection-start-column="111" selection-end-line="227" selection-end-column="111" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
@@ -68,7 +69,6 @@
                 <element signature="n#style#0;n#p#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#span#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#span#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#4;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -207,7 +207,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550436459017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550452774012" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="HTML" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -348,7 +348,7 @@
       <workItem from="1549662822738" duration="829000" />
       <workItem from="1549897972382" duration="1524000" />
       <workItem from="1550152251215" duration="24195000" />
-      <workItem from="1550429297691" duration="3077000" />
+      <workItem from="1550429297691" duration="3320000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Image Link and image sizing">
       <created>1550158001882</created>
@@ -406,14 +406,22 @@
       <option name="project" value="LOCAL" />
       <updated>1550436252768</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update workspace - name changed">
+      <created>1550436483096</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550436483096</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157353000" />
+    <option name="totallyTimeSpent" value="157596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="295" y="66" width="1385" height="887" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Learn" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12658228" />
@@ -461,7 +469,8 @@
     <MESSAGE value="fixed link" />
     <MESSAGE value="update kb button click function" />
     <MESSAGE value="removed button for simple text" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed button for simple text" />
+    <MESSAGE value="update workspace - name changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workspace - name changed" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -536,8 +545,8 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_18.html" />
     <entry file="file://$PROJECT_DIR$/QA_Template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="225" column="80" lean-forward="true" selection-start-line="225" selection-start-column="80" selection-end-line="225" selection-end-column="80" />
+        <state relative-caret-position="447">
+          <caret line="227" column="111" selection-start-line="227" selection-start-column="111" selection-end-line="227" selection-end-column="111" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
@@ -562,7 +571,6 @@
             <element signature="n#style#0;n#p#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#span#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#span#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#4;n#table#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
